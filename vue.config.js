@@ -22,7 +22,7 @@ module.exports = {
     before: app => {}
   },
   publicPath: process.env.NODE_ENV === 'production'
-      ? '/my-courses-system-preview/'
+      ? '/my-courses-system-preview/dist/'
       : '/'
 
 };
