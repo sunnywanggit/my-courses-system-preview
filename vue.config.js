@@ -4,7 +4,7 @@ module.exports = {
   devServer: {
     open: true,
     // host: 'localhost',
-    host: 'http://sunnywanggitee.gitee.io',
+    host: 'http://sunnywanggitee.gitee.io/courses-system',
     // port: 8080,
     https: false,
     hotOnly: false,
@@ -22,7 +22,7 @@ module.exports = {
     before: app => {}
   },
   publicPath: process.env.NODE_ENV === 'production'
-      ? '/my-courses-system-preview/dist/'
+      ? '/courses-system/dist/'
       : '/'
 
 };
